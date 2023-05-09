@@ -1,0 +1,123 @@
+* {
+	margin: 0px;
+}
+
+body {
+	font: 15px 'Montserrat', sans-serif;
+	text-align: center;
+	background: white;
+}
+
+.nao-metal {
+	background-color: rgb(180, 210, 100);
+}
+
+.gas-nobre {
+	background-color: rgb(100, 180, 225);
+}
+
+.metal-alcalino {
+	background-color: rgb(245, 200, 100);
+}
+
+.metal-alcalino-terroso {
+	background-color: rgb(240, 230, 90);
+}
+
+.semimetal {
+	background-color: rgb(110, 200, 190);
+}
+
+.halogenio {
+	background-color: rgb(170, 225, 255);
+}
+
+.outros-metais {
+	background-color: rgb(190, 210, 210);
+}
+
+.metal-transicao {
+	background-color: rgb(245, 175, 175);
+}
+
+.lantanideo {
+	background-color: rgb(150, 225, 225);
+}
+
+.actinidio {
+	background-color: rgb(230, 190, 220);
+}
+
+h1 {
+	margin: 10px;
+	font-size: 60px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.espaçamento {
+	display: block;
+	visibility: hidden;
+
+}
+
+#grid-container {
+	display: grid;
+	grid-template-columns: repeat(18, 100px);
+	margin: 40px;
+}
+
+section {
+	margin: 0;
+	height: auto;
+	background: black;
+	border: .125rem solid;
+	border-radius: .25rem;
+	line-height: 1.25;
+	margin-bottom: .5em;
+	position: relative;
+	flex-direction: column;
+}
+
+section:hover {
+	transition: .2s;
+	transform: scale(1.5);
+	cursor: pointer;
+	z-index: 2;
+}
+
+footer {
+	font-size: 15px;
+	width: 100%;
+	margin: 20px;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	line-height: 40px;
+	display: inline-block;
+	line-height: 1.5;
+	height: 20px;
+	border: 1px solid;
+	border-radius: 1px;
+	margin-right: 15px;
+	position: relative;
+}
+li:hover {
+	transition: .2s;
+	transform: scale(1.5);
+	cursor: pointer;
+	z-index: 2;
+}
