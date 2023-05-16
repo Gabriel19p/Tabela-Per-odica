@@ -7,7 +7,6 @@ body {
 	font: 15px 'Montserrat', sans-serif;
 	text-align: center;
 	background: white;
-
 }
 
 .nao-metal {
@@ -53,7 +52,7 @@ body {
 h1 {
 	margin: 10px;
 	font-size: 60px;
-	font-weight: 100;
+	font-weight: auto;
 	text-transform: uppercase;
 }
 
@@ -86,7 +85,7 @@ a {
 
 #grid-container {
 	display: grid;
-	grid-template-columns: repeat(18, 100px);
+	grid-template-columns: repeat(18, auto);
 	margin: 20px;
 }
 
