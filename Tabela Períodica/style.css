@@ -96,7 +96,7 @@ a {
 #grid-container {
 	display: grid;
 	grid-template-columns: repeat(18, auto);
-	margin: 20px;
+	margin: 60px;
 }
 
 section {
