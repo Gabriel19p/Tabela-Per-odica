@@ -90,7 +90,6 @@ a {
 }
 	
 .visibilidade{
-	display:block;
 	visibility:hidden;
 }
 	
@@ -105,7 +104,6 @@ section {
 	border: .125rem solid;
 	border-radius: .25rem;
 	line-height: auto;
-	margin-bottom: .5em;
 	position: relative;
 	flex-direction: column;
 }
